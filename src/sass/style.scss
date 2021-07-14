@@ -9,6 +9,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 .container {
     width: 1140px;
@@ -18,7 +19,7 @@
     width: 60px;
     height: 3px;
     background-color: $main-color;
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
     
 }
 
@@ -28,5 +29,7 @@
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/about-me';
+@import 'blocks/resume';
+@import 'blocks/skills';
 
 
